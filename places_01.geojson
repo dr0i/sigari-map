@@ -1,0 +1,88 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0,0]
+      },
+      "properties": {
+        "label": "<a href=\"http://www.gadel.org/kalender/kalender/kalender-25-26-05-2018.html\">Fundra</a>",
+        "id": "Fundra",
+        "pop": "40080",
+        "depiction": "http://gadel.org//images/stories/illus/2018-05-25/fundra-drache.jpg",
+        "depictionMostlyKnownFor": "null"
+}},
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.02,0.02]
+      },
+      "properties": {
+        "label": "<a href=\"http://www.gadel.org/story/kalender-19-20-05-2017.html\">Meradin</a>",
+        "id": "meradin",
+        "pop": "50",
+        "depiction": "http://gadel.org//images/stories/illus/2017-05-20/Explo.jpg",
+        "depictionMostlyKnownFor": "http://gadel.org//images/stories/illus/2017-05-20/Explo.jpg"
+}},
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.084,-0.142]
+      },
+      "properties": {
+        "label": "<a href=\"http://www.gadel.org/kalender/kalender/kalender-19-20-05-2017.html\">Nordinseln der Sigari-Abtrennung</a>",
+        "id": "2017-05-20/inseln-meer.jpg",
+        "pop": "0",
+        "depiction": "http://gadel.org//images/stories/illus/2017-05-20/inseln-meer.jpg",
+        "depictionMostlyKnownFor": "null"
+}},
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.19,-0.22]
+      },
+      "properties": {
+        "label": "<a href=\"http://www.gadel.org/kalender/kalender/kalender-0304032006.html\">Vulkan auf Jasfir</a>",
+        "id": "Jasfir",
+        "pop": "0",
+        "depiction": "http://gadel.org//images/stories/illus/2006_03_03/vulkan-jasfir.jpg",
+        "depictionMostlyKnownFor": "null"
+}},
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.12,-0.17]
+      },
+      "properties": {
+        "label": "<a href=\"http://www.gadel.org/?view=article&id=64:tagebuchtejak041120&catid=15\">Usuls Turm</a>",
+        "id": "usulas turm",
+        "pop": "1",
+        "depiction": "http://www.gadel.org//images/stories/illus/2004-11-16/leucht-turm.jpg",
+        "depictionMostlyKnownFor": "null"
+}}
+,
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.012,-0.1]
+      },
+      "properties": {
+        "label": "Segon",
+        "id": "segon",
+        "pop": "120000",
+        "depiction": "null",
+        "depictionMostlyKnownFor": "null"
+}}
+
+
+
+
+]
+}
