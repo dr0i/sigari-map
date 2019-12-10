@@ -16,7 +16,7 @@ define(["jquery", "leaflet", "leaflet.ajax", "data"], function ($, leaflet, leaf
 		L.geoJson(data ,{
 			pointToLayer: function(feature,latlng){
 			var marker = L.marker(latlng);
-			marker.bindPopup("Name: <a href="+feature.properties.id+ '>'+feature.properties.label + '</a><br/>Population:' + feature.properties.pop + '<img src=' + feature.properties.depiction + ' style=\"width:50px\">');
+			marker.bindPopup("Name: <a href="+feature.properties.id+ '>'+feature.properties.label + '</a><br/><img src=' + feature.properties.depiction + ' style=\"width:50px\">');
 			return marker;
 			}
 		}).addTo(map).on('click', function(e) {
