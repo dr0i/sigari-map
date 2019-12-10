@@ -28,6 +28,10 @@ define(["jquery", "leaflet", "leaflet.ajax", "data"], function ($, leaflet, leaf
 			})
 		});
 
+		map.on('dblclick', function(e) {
+			alert("Lat, Lon : " + e.latlng.lat + ", " + e.latlng.lng)
+		});
+
 		var markerGroup = leaflet.layerGroup();
 		markerGroup.addTo(map);
 
