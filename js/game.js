@@ -103,6 +103,13 @@ define(
 
 				var updateInfobox = function(id, props) {
 					var htmlInner = '<div style="width: 400px; position: fixed; left: 70px; color: black;">';
+ htmlInner += '<input type="checkbox" id="catCity" name="cat" value="city">'
+                                       htmlInner += '<label for="catCity">Zeige Städte</label>'
+                                       htmlInner += '<input type="checkbox" id="catLandscape" name="cat" value="landscape">'
+                                       htmlInner += '<label for="catCity">Zeige Landschaften</label>'
+                                       htmlInner += '<input type="checkbox" id="catBuildings" name="cat" value="building">'
+                                       htmlInner += '<label for="catCity">Zeige Gebäude</label>'
+
 					var score_ = gameData.getScore();
 					htmlInner += '<h2>Finde die Stadt!<span id="score" style="float: right"></span></h2>'
 					htmlInner += '<button id="checkLocationButton" style="font-size : 20px; width: 100%; height: 100%;;margin:auto;display:block">Prüfe Position</button>'
