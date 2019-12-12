@@ -106,9 +106,9 @@ define(
  htmlInner += '<input type="checkbox" id="catCity" name="cat" value="city">'
                                        htmlInner += '<label for="catCity">Zeige Städte</label>'
                                        htmlInner += '<input type="checkbox" id="catLandscape" name="cat" value="landscape">'
-                                       htmlInner += '<label for="catCity">Zeige Landschaften</label>'
+                                       htmlInner += '<label for="catLandscape">Zeige Landschaften</label>'
                                        htmlInner += '<input type="checkbox" id="catBuildings" name="cat" value="building">'
-                                       htmlInner += '<label for="catCity">Zeige Gebäude</label>'
+                                       htmlInner += '<label for="catBuildings">Zeige Gebäude</label>'
 
 					var score_ = gameData.getScore();
 					htmlInner += '<h2>Finde die Stadt!<span id="score" style="float: right"></span></h2>'

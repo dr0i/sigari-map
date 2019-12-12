@@ -12,10 +12,12 @@ define(["jquery", "leaflet", "leaflet.ajax", "data"], function ($, leaflet, leaf
 			minZoom: data.mapConfig.minZoom
 		}).addTo(map);
 	// load GeoJSON from an external file
+		var setMarker = function(){
 		$.getJSON(geojsonFile,function(data){
 		L.geoJson(data ,{
 			pointToLayer: function(feature,latlng){
 			var marker = L.marker(latlng);
+			console.log("cat="+feature.properties.cat);
 			marker.bindPopup("Name: <a href="+feature.properties.id+ '>'+feature.properties.label + '</a><br/><img src=' + feature.properties.depiction + ' style=\"width:50px\">');
 			return marker;
 			}
@@ -27,9 +29,20 @@ define(["jquery", "leaflet", "leaflet.ajax", "data"], function ($, leaflet, leaf
 			$("#checkLocationButton").removeAttr('disabled');
 			})
 		});
+		}
 
 		map.on('dblclick', function(e) {
 			alert("Lat, Lon : " + e.latlng.lat + ", " + e.latlng.lng)
+		});
+
+		setMarker();
+
+		$(document).on('input', '#catLandscape', function() {
+			console.log("checkbox jquery Landscape!");
+			var checkedIds = $(".checkbox:checked").map(function() {
+				return this.id;
+			}).toArray();
+			alert("huray"+checkedIds.join(", "));
 		});
 
 		var markerGroup = leaflet.layerGroup();
