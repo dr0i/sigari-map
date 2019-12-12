@@ -11,18 +11,22 @@ define(["jquery", "leaflet", "leaflet.ajax", "data"], function ($, leaflet, leaf
 			maxZoom: data.mapConfig.maxZoom,
 			minZoom: data.mapConfig.minZoom
 		}).addTo(map);
+
+var marker;
+var markerGroup = L.layerGroup().addTo( map );
 	// load GeoJSON from an external file
-		var setMarker = function(){
+		var setMarker = function(cat){
 		$.getJSON(geojsonFile,function(data){
 		L.geoJson(data ,{
 			pointToLayer: function(feature,latlng){
-			var marker = L.marker(latlng);
-			console.log("cat="+feature.properties.cat);
-			marker.bindPopup("Name: <a href="+feature.properties.id+ '>'+feature.properties.label + '</a><br/><img src=' + feature.properties.depiction + ' style=\"width:50px\">');
-			return marker;
+			if ( feature.properties.cat === cat ) {
+				marker = L.marker(latlng);
+				marker.bindPopup("Name: <a href="+feature.properties.id+ '>'+feature.properties.label + '</a><br/><img src=' + feature.properties.depiction + ' style=\"width:50px\">');
+				return marker;
 			}
-		}).addTo(map).on('click', function(e) {
-			var marker = leaflet.marker(e.latlng);
+			}
+		}).addTo(markerGroup).on('click', function(e) {
+			marker = leaflet.marker(e.latlng);
 			marker.addTo(markerGroup);
 			mapPositionHandler.setMarkerPosition(e.target.latlng ? e.target.latlng : e.latlng);
 			gameData.setRoundInit(true);
@@ -34,19 +38,24 @@ define(["jquery", "leaflet", "leaflet.ajax", "data"], function ($, leaflet, leaf
 		map.on('dblclick', function(e) {
 			alert("Lat, Lon : " + e.latlng.lat + ", " + e.latlng.lng)
 		});
+	
 
-		setMarker();
-
-		$(document).on('input', '#catLandscape', function() {
-			console.log("checkbox jquery Landscape!");
-			var checkedIds = $(".checkbox:checked").map(function() {
-				return this.id;
-			}).toArray();
-			alert("huray"+checkedIds.join(", "));
+		$(document).on('change', 'input', function()  {
+			$("input:checkbox").each(function(){
+				var checkId=$(this).attr("id");
+				var isChecked = $('input[id='+ checkId +']').prop('checked');
+                		console.log("Is " + checkId + " checked?: " + isChecked);
+				markerGroup.clearLayers();
+				if ( isChecked ) {
+					var valueOfCheckedCat = $("input[id=" + checkId + "]").val();
+					setMarker(valueOfCheckedCat);
+				}
+			})
 		});
 
-		var markerGroup = leaflet.layerGroup();
-		markerGroup.addTo(map);
+		setMarker("city");
+		setMarker("landscape");
+		setMarker("building");
 
 		$.ajaxSetup({
 			scriptCharset: "utf-8",
@@ -63,7 +72,7 @@ define(["jquery", "leaflet", "leaflet.ajax", "data"], function ($, leaflet, leaf
 			},
 			dataType: "json",
 			success: function (geojsonData) {
-				callback(geojsonData, map, markerGroup)
+				callback(geojsonData, map, this.markerGroup)
 			}
 		});
 	};
