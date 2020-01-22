@@ -79,10 +79,32 @@
 	"cat": "city",
         "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
         "depictionMostlyKnownFor": "null"
+}},
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-0.038087368011474616,-0.043859477528062116]
+      },
+      "properties": {
+        "label": "<a href=\"http://gadel.org/component/search/?searchword=badrak&ordering=newest&searchphrase=exact&limit=0\">Badrak</a>",
+        "id": "badrak",
+	"cat": "landscape",
+        "depiction": "https://gadel.org//images/stories/illus/2004-11-16/badrak-heilung-wald.jpg",
+        "depictionMostlyKnownFor": "null"
+}} ,
+{
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [0.0034761428833007812,0.018603801400402936]
+      },
+      "properties": {
+        "label": "<a href=\"http://gadel.org/component/search/?searchword=trollsumpf%20zando&ordering=newest&searchphrase=any&limit=0\">Sicherer Ort 'Perrasz' im Trollsumpf</a>",
+        "id": "trollsumpf",
+	"cat": "landscape",
+        "depiction": "https://gadel.org//images/stories/illus/2005_02_19/trollsuempfe.jpg",
+        "depictionMostlyKnownFor": "null"
 }}
-
-
-
-
 ]
 }
