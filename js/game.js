@@ -26,81 +26,6 @@ define(
 					return this._div;
 				};
 
-				var checkLocation = function() {
-					var realMarker = leaflet.marker(mapPositionHandler
-							.getRealMarkerPosition(), {
-						draggable : false
-					});
-					realMarker.setIcon(icons.redIcon);
-					realMarker.addTo(markerGroup);
-
-					var distance = map.distance(mapPositionHandler
-							.getMarkerPosition(), mapPositionHandler
-							.getRealMarkerPosition())
-					distance = distance * 150
-					var thisRoundScore = getThisRoundScore(distance);
-					gameData.setScore(gameData.getScore() + thisRoundScore);
-					distanceStr = Math.round(distance.toFixed(0)/1000)
-
-					var lastSentence;
-					updateStatus();
-					if (gameData.hasNextRound()) {
-						lastSentence = "Deine Punkte nach dieser Runde: "
-						+ gameData.getScore()
-					} else {
-						lastSentence = "Du hast " + gameData.getScore()
-								+ " von 500 Punkten erreicht.";
-					}
-					if (distanceStr == 0) {
-						alert("=^_^=\n" + 
-									"\n" +
-									"Exzellent!");
-	
-					} else {
-						alert("Die gewählte Stadt ist " + distanceStr
-							+ " km von " + gameData.getCityName() + " entfernt."
-							+ "\n\nDu bekommst " + thisRoundScore + " Punkte."
-							+ "\n" + lastSentence);
-					}
-
-					if (gameData.hasNextRound()) {
-							nextLocation();
-					} else {
-						updateStatus();
-						$("#checkLocationButton").html('Neu starten');
-						$("#checkLocationButton").unbind('click');
-						$("#checkLocationButton").on('click', function(e) {
-							gameData.setRoundInit(true);
-							gameData.resetAll();
-							nextLocation();
-						});
-					}
-				};
-
-				var nextLocation = function() {
-					while (!gameData.nextPhoto()) {
-						// retrying
-					}
-
-					mapPositionHandler.setRealMarkerPosition(gameData
-							.getImageGeoPosition())
-					markerGroup.eachLayer(function(layer) {
-						map.removeLayer(layer);
-					});
-					updateStatus();
-					$("#checkLocationButton").unbind('click');
-					$("#checkLocationButton").html('Prüfe Position');
-					$("#checkLocationButton").prop('disabled', 'disabled');
-					$("#checkLocationButton").on('click', function(e) {
-						checkLocation();
-					});
-					$("#photo").prop('src', gameData.getImageUrl());
-				}
-
-				var updateStatus = function() {
-						document.getElementById("score").innerHTML = "Runde: " + gameData.getRound() +"/5, Punkte: " + gameData.getScore() +"/500";
-				}
-
 				var updateInfobox = function(id, props) {
 					var htmlInner = '<div style="width: 400px; position: fixed; left: 70px; color: black;">';
  htmlInner += '<input type="checkbox" id="catCity" name="cat" value="city" checked>'
@@ -110,8 +35,6 @@ define(
                                        htmlInner += '<input type="checkbox" id="catBuildings" name="cat" value="building" checked>'
                                        htmlInner += '<label for="catBuildings">Zeige Gebäude</label>'
 
-					var score_ = gameData.getScore();
-					htmlInner += '<h2>Finde die Stadt!<span id="score" style="float: right"></span></h2>'
 					htmlInner += '<button id="checkLocationButton" style="font-size : 20px; width: 100%; height: 100%;;margin:auto;display:block">Prüfe Position</button>'
 					var imageUrl = gameData.getImageUrl();
 					var imageGeoPosition = gameData.getImageGeoPosition();
@@ -127,7 +50,6 @@ define(
 				info.update = updateInfobox;
 				info.onAdd = addInfobox;
 				info.addTo(map);
-				updateStatus();
 
 				$("#checkLocationButton").prop('disabled', 'disabled');
 				$("#checkLocationButton").on('click', function(e) {

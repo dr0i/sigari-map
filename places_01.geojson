@@ -18,7 +18,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.02,0.02]
+        "coordinates": [-0.0018882751464843752,0.008368492096714591]
       },
       "properties": {
         "label": "<a href=\"http://gadel.org/component/search/?searchword=meradin&ordering=newest&searchphrase=all&limit=0\">Meradin</a>",
@@ -31,7 +31,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.084,-0.142]
+        "coordinates": [-0.04102706909179688,-0.06424425686280114]
       },
       "properties": {
         "label": "<a href=\"http://www.gadel.org/kalender/kalender/kalender-19-20-05-2017.html\">Nordinseln der Sigari-Abtrennung</a>",
@@ -44,7 +44,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.19,-0.22]
+        "coordinates": [-0.08776187896728517,-0.10402673728062475]
       },
       "properties": {
         "label": "<a href=\"http://gadel.org/component/search/?searchword=jasfir&ordering=newest&searchphrase=all&limit=0\">Vulkan auf Jasfir</a>",
@@ -57,7 +57,7 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.12,-0.17]
+        "coordinates": [-0.06986618041992189,-0.06654022628403988]
       },
       "properties": {
         "label": "<a href=\"http://gadel.org/component/search/?searchword=usuls turm&ordering=newest&searchphrase=exact&limit=0\">Usuls Turm</a>",
@@ -71,13 +71,13 @@
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [0.012,-0.1]
+        "coordinates": [-0.024032592773437503,-0.038301941879905974]
       },
       "properties": {
         "label": "<a href=\"http://gadel.org/component/search/?searchword=segon&ordering=newest&searchphrase=exact&limit=0\">Segon</a>",
         "id": "segon",
 	"cat": "city",
-        "depiction": "null",
+        "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
         "depictionMostlyKnownFor": "null"
 }}
 

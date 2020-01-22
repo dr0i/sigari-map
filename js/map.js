@@ -6,7 +6,7 @@ define(["jquery", "leaflet", "leaflet.ajax", "data"], function ($, leaflet, leaf
 			maxZoom: data.mapConfig.maxZoom,
 			minZoom: data.mapConfig.minZoom
 		}).addTo(map);
-		leaflet.tileLayer('http://www.mapwarper.net/maps/tile/44239/{z}/{x}/{y}.png', {
+		leaflet.tileLayer('http://www.mapwarper.net/maps/tile/45207/{z}/{x}/{y}.png', {
 			attribution: data.mapConfig.mapWarperAttribution,
 			maxZoom: data.mapConfig.maxZoom,
 			minZoom: data.mapConfig.minZoom
@@ -44,7 +44,6 @@ var markerGroup = L.layerGroup().addTo( map );
 			$("input:checkbox").each(function(){
 				var checkId=$(this).attr("id");
 				var isChecked = $('input[id='+ checkId +']').prop('checked');
-                		console.log("Is " + checkId + " checked?: " + isChecked);
 				markerGroup.clearLayers();
 				if ( isChecked ) {
 					var valueOfCheckedCat = $("input[id=" + checkId + "]").val();

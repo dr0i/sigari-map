@@ -1,9 +1,9 @@
 define({
 	geojsonFile: "https://www.dr0i.de/lib/gadel/sigari-map/"+geojsonFile,
 	mapConfig: {
-		center: [0, 0],
-		zoom: 11,
-		maxZoom: 15,
+		center: [0.0, -0.07],
+		zoom: 12,
+		maxZoom: 18,
 		minZoom: 10,
 		attribution: 'Map data &#64; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors</a>',
 		mapWarperAttribution: 'Map data &#64; <a href="http://mapwarper.net/">MapWarper</a> contributors</a>'
@@ -14,8 +14,8 @@ define({
 		var roundInit = false;
 		var alreadyPlayed = [];
 		var data = undefined;
-		var imageUrl = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Dortmund_Panorama.jpg/320px-Dortmund_Panorama.jpg";
-		var imageGeoPosition = [50.942222222, 6.957777777];
+		var imageUrl = "http://gadel.org//images/stories/illus/2018-05-25/fundra-drache.jpg";
+		var imageGeoPosition = [0.0 , 0.0];
 
 		var createNewIndex = function() {
 			return Math.floor(Math.random() * Math.floor(data.features.length));
