@@ -1,110 +1,141 @@
 {
   "type": "FeatureCollection",
   "features": [
-{
+    {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [0,0]
+        "coordinates": [
+          0,
+          0
+        ]
       },
       "properties": {
         "label": "<a href=\"http://gadel.org/component/search/?searchword=fundra&ordering=newest&searchphrase=all&limit=0\">Fundra</a>",
         "id": "Fundra",
-	"cat": "city",
+        "cat": "city",
         "depiction": "http://gadel.org//images/stories/illus/2018-05-25/fundra-drache.jpg",
         "depictionMostlyKnownFor": "null"
-}},
-{
+      }
+    },
+    {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.0018882751464843752,0.008368492096714591]
+        "coordinates": [
+          -0.0018882751464843752,
+          0.008368492096714591
+        ]
       },
       "properties": {
         "label": "<a href=\"http://gadel.org/component/search/?searchword=meradin&ordering=newest&searchphrase=all&limit=0\">Meradin</a>",
         "id": "meradin",
-	"cat": "city",
+        "cat": "city",
         "depiction": "http://gadel.org//images/stories/illus/2017-05-20/Explo.jpg",
         "depictionMostlyKnownFor": "http://gadel.org//images/stories/illus/2017-05-20/Explo.jpg"
-}},
-{
+      }
+    },
+    {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.04102706909179688,-0.06424425686280114]
+        "coordinates": [
+          -0.04102706909179688,
+          -0.06424425686280114
+        ]
       },
       "properties": {
         "label": "<a href=\"http://www.gadel.org/kalender/kalender/kalender-19-20-05-2017.html\">Nordinseln der Sigari-Abtrennung</a>",
-	"cat": "landscape",
+        "cat": "landscape",
         "id": "2017-05-20/inseln-meer.jpg",
         "depiction": "http://gadel.org//images/stories/illus/2017-05-20/inseln-meer.jpg",
         "depictionMostlyKnownFor": "null"
-}},
-{
+      }
+    },
+    {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.08776187896728517,-0.10402673728062475]
+        "coordinates": [
+          -0.08776187896728517,
+          -0.10402673728062475
+        ]
       },
       "properties": {
         "label": "<a href=\"http://gadel.org/component/search/?searchword=jasfir&ordering=newest&searchphrase=all&limit=0\">Vulkan auf Jasfir</a>",
         "id": "Jasfir",
-	"cat": "landscape",
+        "cat": "landscape",
         "depiction": "http://gadel.org//images/stories/illus/2006_03_03/vulkan-jasfir.jpg",
         "depictionMostlyKnownFor": "null"
-}},
-{
+      }
+    },
+    {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.06986618041992189,-0.06654022628403988]
+        "coordinates": [
+          -0.06986618041992189,
+          -0.06654022628403988
+        ]
       },
       "properties": {
         "label": "<a href=\"http://gadel.org/component/search/?searchword=usuls turm&ordering=newest&searchphrase=exact&limit=0\">Usuls Turm</a>",
         "id": "usulas turm",
-	"cat": "building",
+        "cat": "building",
         "depiction": "http://www.gadel.org//images/stories/illus/2004-11-16/leucht-turm.jpg",
         "depictionMostlyKnownFor": "null"
-}}
-,
-{
+      }
+    },
+    {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.024032592773437503,-0.038301941879905974]
+        "coordinates": [
+          -0.024032592773437503,
+          -0.038301941879905974
+        ]
       },
       "properties": {
         "label": "<a href=\"http://gadel.org/component/search/?searchword=segon&ordering=newest&searchphrase=exact&limit=0\">Segon</a>",
         "id": "segon",
-	"cat": "city",
+        "cat": "city",
         "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
         "depictionMostlyKnownFor": "null"
-}},
-{
+      }
+    },
+    {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.038087368011474616,-0.043859477528062116]
+        "coordinates": [
+          -0.038087368011474616,
+          -0.043859477528062116
+        ]
       },
       "properties": {
         "label": "<a href=\"http://gadel.org/component/search/?searchword=badrak&ordering=newest&searchphrase=exact&limit=0\">Badrak</a>",
         "id": "badrak",
-	"cat": "landscape",
+        "cat": "landscape",
         "depiction": "https://gadel.org//images/stories/illus/2004-11-16/badrak-heilung-wald.jpg",
         "depictionMostlyKnownFor": "null"
-}} ,
-{
+      }
+    },
+    {
       "type": "Feature",
       "geometry": {
         "type": "Point",
-        "coordinates": [0.0034761428833007812,0.018603801400402936]
+        "coordinates": [
+          0.0034761428833007812,
+          0.018603801400402936
+        ]
       },
       "properties": {
         "label": "<a href=\"http://gadel.org/component/search/?searchword=trollsumpf%20zando&ordering=newest&searchphrase=any&limit=0\">Sicherer Ort 'Perrasz' im Trollsumpf</a>",
         "id": "trollsumpf",
-	"cat": "landscape",
+        "cat": "landscape",
         "depiction": "https://gadel.org//images/stories/illus/2005_02_19/trollsuempfe.jpg",
         "depictionMostlyKnownFor": "null"
-}}
-]
+      }
+    }
+  ]
 }
