@@ -12,6 +12,12 @@ define(["jquery", "leaflet", "leaflet.ajax", "leaflet.ruler", "data"], function(
       display: "km",
       decimal: 0,
       label: "Distanz:"
+    },
+    mediumUnit: {
+      display: "Tage",
+      decimal: 1,
+      factor: 0.014,
+      label: "Pferd:"
     }
   };
   return function(mapPositionHandler, callback, gameData) {
