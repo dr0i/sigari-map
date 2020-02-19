@@ -53,6 +53,7 @@
       this._clickedLatLong = null;
       this._clickedPoints = [];
       this._totalLength = 0;
+      this._totalLengthMedium = 0;
       if (this._choice) {
         this._map.doubleClickZoom.disable();
         L.DomEvent.on(this._map._container, "keydown", this._escape, this);
@@ -97,12 +98,13 @@
         }
         var text;
         this._totalLength += this._result.Distance;
+        this._totalLengthMedium += this._result.Medium;
         if (this._clickCount > 1) {
           text =
             "<b>" +
             this.options.mediumUnit.label +
             "</b>&nbsp;" +
-            this._result.Medium.toFixed(this.options.mediumUnit.decimal) +
+            this._totalLengthMedium.toFixed(this.options.mediumUnit.decimal) +
             "&nbsp;" +
             this.options.mediumUnit.display +
             "<br><b>" +
