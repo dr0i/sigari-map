@@ -58,6 +58,7 @@ define(["jquery", "leaflet", "leaflet.ajax", "data"], function(
       });
     };
 
+    map.doubleClickZoom.disable();
     map.on("dblclick", function(e) {
       alert("Lat, Lon : " + e.latlng.lat + ", " + e.latlng.lng);
     });
