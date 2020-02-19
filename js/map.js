@@ -1,9 +1,19 @@
-define(["jquery", "leaflet", "leaflet.ajax", "data"], function(
+define(["jquery", "leaflet", "leaflet.ajax", "leaflet.ruler", "data"], function(
   $,
   leaflet,
   leafletAjax,
+  leafletRuler,
   data
 ) {
+  var rulerOptions = {
+    position: "topleft",
+    lengthUnit: {
+      factor: 750,
+      display: "km",
+      decimal: 0,
+      label: "Distanz:"
+    }
+  };
   return function(mapPositionHandler, callback, gameData) {
     var map = leaflet
       .map("map")
@@ -22,7 +32,7 @@ define(["jquery", "leaflet", "leaflet.ajax", "data"], function(
         minZoom: data.mapConfig.minZoom
       })
       .addTo(map);
-
+    L.control.ruler(rulerOptions).addTo(map);
     var marker;
     var markerGroup = L.layerGroup().addTo(map);
     // load GeoJSON from an external file
@@ -57,7 +67,6 @@ define(["jquery", "leaflet", "leaflet.ajax", "data"], function(
           });
       });
     };
-
     map.doubleClickZoom.disable();
     map.on("dblclick", function(e) {
       alert("Lat, Lon : " + e.latlng.lat + ", " + e.latlng.lng);
