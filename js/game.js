@@ -30,9 +30,6 @@ define(["jquery", "icons", "fancybox", "leaflet"], function(
         '<img id="photo" src="' +
         imageUrl +
         '" style="max-width:395px" /></div>';
-      mapPositionHandler.setRealMarkerPosition(
-        leaflet.latLng(imageGeoPosition[0], imageGeoPosition[1])
-      );
       console.log("updateInfo");
       this._div.innerHTML = htmlInner;
     };

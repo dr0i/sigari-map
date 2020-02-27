@@ -13,18 +13,18 @@ requirejs.config({
   }
 });
 require([
-  "mapposition",
+  "urlOfClickedMarker",
   "map",
   "game",
   "data",
   "leaflet",
   "leaflet.ruler"
-], function(mapposition, map, game, data, leaflet, leafletRuler) {
-  var mapPositionHandler = new mapposition();
+], function(urlOfClickedMarker, map, game, data, leaflet, leafletRuler) {
+  var urlOfClickedMarker = new urlOfClickedMarker();
   var gameData = data.gameData();
   var callback = function(geojsonData, theMap, markerGroup) {
     gameData.setData(geojsonData);
-    new game(theMap, markerGroup, mapPositionHandler, gameData);
+    new game(theMap, markerGroup, urlOfClickedMarker, gameData);
   };
-  var theMap = new map(mapPositionHandler, callback, gameData);
+  var theMap = new map(urlOfClickedMarker, callback, gameData);
 });
