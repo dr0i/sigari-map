@@ -68,7 +68,6 @@ define(["jquery", "leaflet", "leaflet.ajax", "leaflet.ruler", "data"], function(
             marker = leaflet.marker(e.latlng);
             mapPositionHandler.setMarkerUrl(e.layer.properties.url);
             $("#photo").prop("src", mapPositionHandler.getMarkerUrl());
-            console.log(mapPositionHandler.getMarkerUrl());
           });
       });
     };
