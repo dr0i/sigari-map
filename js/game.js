@@ -5,24 +5,6 @@ define(["jquery", "icons", "fancybox", "leaflet"], function(
   leaflet
 ) {
   return function(map, markerGroup, mapPositionHandler, gameData) {
-    var getThisRoundScore = function(distance) {
-      if (distance < 10000) {
-        return 100;
-      } else if (distance < 15000) {
-        return 85;
-      } else if (distance < 20000) {
-        return 70;
-      } else if (distance < 25000) {
-        return 55;
-      } else if (distance < 30000) {
-        return 40;
-      } else if (distance < 35000) {
-        return 25;
-      } else {
-        return 0;
-      }
-    };
-
     var addInfobox = function(map) {
       this._div = leaflet.DomUtil.create("div", "info");
       this.update();
@@ -42,9 +24,7 @@ define(["jquery", "icons", "fancybox", "leaflet"], function(
         '<input type="checkbox" id="catBuildings" name="cat" value="building" checked>';
       htmlInner += '<label for="catBuildings">Zeige Gebäude</label>';
 
-      htmlInner +=
-        '<button id="checkLocationButton" style="font-size : 20px; width: 100%; height: 100%;;margin:auto;display:block">Prüfe Position</button>';
-      var imageUrl = gameData.getImageUrl();
+      var imageUrl = mapPositionHandler.getMarkerUrl();
       var imageGeoPosition = gameData.getImageGeoPosition();
       htmlInner +=
         '<img id="photo" src="' +
@@ -53,17 +33,12 @@ define(["jquery", "icons", "fancybox", "leaflet"], function(
       mapPositionHandler.setRealMarkerPosition(
         leaflet.latLng(imageGeoPosition[0], imageGeoPosition[1])
       );
+      console.log("updateInfo");
       this._div.innerHTML = htmlInner;
     };
-
     var info = leaflet.control();
     info.update = updateInfobox;
     info.onAdd = addInfobox;
     info.addTo(map);
-
-    $("#checkLocationButton").prop("disabled", "disabled");
-    $("#checkLocationButton").on("click", function(e) {
-      checkLocation();
-    });
   };
 });

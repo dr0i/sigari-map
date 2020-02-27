@@ -48,6 +48,8 @@ define(["jquery", "leaflet", "leaflet.ajax", "leaflet.ruler", "data"], function(
           pointToLayer: function(feature, latlng) {
             if (feature.properties.cat === cat) {
               marker = L.marker(latlng);
+              marker.properties = {};
+              marker.properties.url = feature.properties.depiction;
               marker.bindPopup(
                 "Name: <a href=" +
                   feature.properties.id +
@@ -68,8 +70,11 @@ define(["jquery", "leaflet", "leaflet.ajax", "leaflet.ruler", "data"], function(
             mapPositionHandler.setMarkerPosition(
               e.target.latlng ? e.target.latlng : e.latlng
             );
-            gameData.setRoundInit(true);
-            $("#checkLocationButton").removeAttr("disabled");
+            mapPositionHandler.setMarkerUrl(e.layer.properties.url);
+            $("#photo").prop("src", mapPositionHandler.getMarkerUrl());
+            console.log(mapPositionHandler.getMarkerUrl());
+
+            gameData.setRoundInit(false);
           });
       });
     };

@@ -2,6 +2,7 @@ define([], function() {
   return function() {
     var realMarkerPosition = undefined;
     var markerPosition = undefined;
+    var markerUrl = undefined;
 
     return {
       setMarkerPosition: function(mp) {
@@ -14,7 +15,13 @@ define([], function() {
         realMarkerPosition = mp;
       },
       getRealMarkerPosition: function() {
-        return realMarkerPosition;
+        return markerPosition;
+      },
+      setMarkerUrl: function(url) {
+        markerUrl = url;
+      },
+      getMarkerUrl: function() {
+        return markerUrl;
       }
     };
   };
