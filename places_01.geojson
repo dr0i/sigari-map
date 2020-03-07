@@ -11,7 +11,7 @@
         ]
       },
       "properties": {
-        "label": "<a href=\"http://gadel.org/component/search/?searchword=fundra&ordering=newest&searchphrase=all&limit=0\">Fundra</a>",
+        "label": "http://gadel.org/component/search/?searchword=fundra&ordering=newest&searchphrase=all&limit=0",
         "id": "Fundra",
         "cat": "city",
         "depiction": "http://gadel.org//images/stories/illus/2018-05-25/fundra-drache.jpg",
@@ -28,8 +28,8 @@
         ]
       },
       "properties": {
-        "label": "<a href=\"http://gadel.org/component/search/?searchword=meradin&ordering=newest&searchphrase=all&limit=0\">Meradin</a>",
-        "id": "meradin",
+        "label": "http://gadel.org/component/search/?searchword=meradin&ordering=newest&searchphrase=all&limit=0",
+        "id": "Meradin",
         "cat": "city",
         "depiction": "http://gadel.org//images/stories/illus/2017-05-20/Explo.jpg",
         "depictionMostlyKnownFor": "http://gadel.org//images/stories/illus/2017-05-20/Explo.jpg"
@@ -45,9 +45,9 @@
         ]
       },
       "properties": {
-        "label": "<a href=\"http://www.gadel.org/kalender/kalender/kalender-19-20-05-2017.html\">Nordinseln der Sigari-Abtrennung</a>",
+        "label": "http://www.gadel.org/kalender/kalender/kalender-19-20-05-2017.html",
         "cat": "landscape",
-        "id": "2017-05-20/inseln-meer.jpg",
+        "id": "Nordinseln der Sigari-Abtrennung",
         "depiction": "http://gadel.org//images/stories/illus/2017-05-20/inseln-meer.jpg",
         "depictionMostlyKnownFor": "null"
       }
@@ -62,8 +62,8 @@
         ]
       },
       "properties": {
-        "label": "<a href=\"http://gadel.org/component/search/?searchword=jasfir&ordering=newest&searchphrase=all&limit=0\">Vulkan auf Jasfir</a>",
-        "id": "Jasfir",
+        "label": "http://gadel.org/component/search/?searchword=jasfir&ordering=newest&searchphrase=all&limit=0",
+        "id": "Vulkan auf Jasfir",
         "cat": "landscape",
         "depiction": "http://gadel.org//images/stories/illus/2006_03_03/vulkan-jasfir.jpg",
         "depictionMostlyKnownFor": "null"
@@ -79,8 +79,8 @@
         ]
       },
       "properties": {
-        "label": "<a href=\"http://gadel.org/component/search/?searchword=usuls turm&ordering=newest&searchphrase=exact&limit=0\">Usuls Turm</a>",
-        "id": "usulas turm",
+        "label": "http://gadel.org/component/search/?searchword=usuls turm&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Usulas Turm",
         "cat": "building",
         "depiction": "http://www.gadel.org//images/stories/illus/2004-11-16/leucht-turm.jpg",
         "depictionMostlyKnownFor": "null"
@@ -96,8 +96,8 @@
         ]
       },
       "properties": {
-        "label": "<a href=\"http://gadel.org/component/search/?searchword=segon&ordering=newest&searchphrase=exact&limit=0\">Segon</a>",
-        "id": "segon",
+        "label": "http://gadel.org/component/search/?searchword=segon&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Segon",
         "cat": "city",
         "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
         "depictionMostlyKnownFor": "null"
@@ -113,8 +113,8 @@
         ]
       },
       "properties": {
-        "label": "<a href=\"http://gadel.org/component/search/?searchword=badrak&ordering=newest&searchphrase=exact&limit=0\">Badrak</a>",
-        "id": "badrak",
+        "label": "http://gadel.org/component/search/?searchword=badrak&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Badrak",
         "cat": "landscape",
         "depiction": "https://gadel.org//images/stories/illus/2004-11-16/badrak-heilung-wald.jpg",
         "depictionMostlyKnownFor": "null"
@@ -130,8 +130,8 @@
         ]
       },
       "properties": {
-        "label": "<a href=\"http://gadel.org/component/search/?searchword=trollsumpf%20zando&ordering=newest&searchphrase=any&limit=0\">Sicherer Ort 'Perrasz' im Trollsumpf</a>",
-        "id": "trollsumpf",
+        "label": "http://gadel.org/component/search/?searchword=trollsumpf%20zando&ordering=newest&searchphrase=any&limit=0",
+        "id": "Sicherer Ort 'Perrasz' im Trollsumpf",
         "cat": "landscape",
         "depiction": "https://gadel.org//images/stories/illus/2005_02_19/trollsuempfe.jpg",
         "depictionMostlyKnownFor": "null"

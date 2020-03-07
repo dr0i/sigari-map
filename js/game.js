@@ -13,7 +13,7 @@ define(["jquery", "icons", "fancybox", "leaflet"], function(
 
     var updateInfobox = function(id, props) {
       var htmlInner =
-        '<div style="width: 400px; position: fixed; left: 70px; background: lightgrey">';
+        '<div style="width: 400px;text-align: center; position: fixed; left: 70px; background: lightgrey">';
       htmlInner +=
         '<input type="checkbox" id="catCity" name="cat" value="city" checked>';
       htmlInner += '<label for="catCity">Zeige Städte</label>';
@@ -25,7 +25,15 @@ define(["jquery", "icons", "fancybox", "leaflet"], function(
       htmlInner += '<label for="catBuildings";>Zeige Gebäude</label>';
 
       var imageUrl = mapPositionHandler.getMarkerUrl();
-      var imageGeoPosition = gameData.getImageGeoPosition();
+      var imageText = mapPositionHandler.getMarkerText();
+      var imageLink = mapPositionHandler.getMarkerLink();
+
+      htmlInner +=
+        '</br><a id="photoText" style="font-size: 200%" href="' +
+        imageLink +
+        '" >' +
+        imageText +
+        "</a>";
       htmlInner +=
         '<img id="photo" src="' +
         imageUrl +

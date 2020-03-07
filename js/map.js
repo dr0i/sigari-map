@@ -50,15 +50,8 @@ define(["jquery", "leaflet", "leaflet.ajax", "leaflet.ruler", "data"], function(
               marker = L.marker(latlng);
               marker.properties = {};
               marker.properties.url = feature.properties.depiction;
-              marker.bindPopup(
-                "Name: <a href=" +
-                  feature.properties.id +
-                  ">" +
-                  feature.properties.label +
-                  "</a><br/><img src=" +
-                  feature.properties.depiction +
-                  ' style="width:50px">'
-              );
+              marker.properties.id = feature.properties.id;
+              marker.properties.link = feature.properties.label;
               return marker;
             }
           }
@@ -67,6 +60,10 @@ define(["jquery", "leaflet", "leaflet.ajax", "leaflet.ruler", "data"], function(
           .on("mouseover", function(e) {
             marker = leaflet.marker(e.latlng);
             mapPositionHandler.setMarkerUrl(e.layer.properties.url);
+            mapPositionHandler.setMarkerText(e.layer.properties.id);
+            mapPositionHandler.setMarkerLink(e.layer.properties.link);
+            $("#photoText").prop("href", mapPositionHandler.getMarkerLink());
+            $("#photoText").prop("text", mapPositionHandler.getMarkerText());
             $("#photo").prop("src", mapPositionHandler.getMarkerUrl());
           });
       });
