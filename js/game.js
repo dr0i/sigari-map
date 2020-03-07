@@ -13,7 +13,7 @@ define(["jquery", "icons", "fancybox", "leaflet"], function(
 
     var updateInfobox = function(id, props) {
       var htmlInner =
-        '<div style="width: 400px; position: fixed; left: 70px; color: black;">';
+        '<div style="width: 400px; position: fixed; left: 70px; background: lightgrey">';
       htmlInner +=
         '<input type="checkbox" id="catCity" name="cat" value="city" checked>';
       htmlInner += '<label for="catCity">Zeige Städte</label>';
@@ -22,14 +22,14 @@ define(["jquery", "icons", "fancybox", "leaflet"], function(
       htmlInner += '<label for="catLandscape">Zeige Landschaften</label>';
       htmlInner +=
         '<input type="checkbox" id="catBuildings" name="cat" value="building" checked>';
-      htmlInner += '<label for="catBuildings">Zeige Gebäude</label>';
+      htmlInner += '<label for="catBuildings";>Zeige Gebäude</label>';
 
       var imageUrl = mapPositionHandler.getMarkerUrl();
       var imageGeoPosition = gameData.getImageGeoPosition();
       htmlInner +=
         '<img id="photo" src="' +
         imageUrl +
-        '" style="max-width:395px" /></div>';
+        '" style="max-width:400px" /></div>';
       this._div.innerHTML = htmlInner;
     };
     var info = leaflet.control();
