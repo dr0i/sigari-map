@@ -64,7 +64,7 @@ define(["jquery", "leaflet", "leaflet.ajax", "leaflet.ruler", "data"], function(
           }
         })
           .addTo(markerGroup)
-          .on("click", function(e) {
+          .on("mouseover", function(e) {
             marker = leaflet.marker(e.latlng);
             mapPositionHandler.setMarkerUrl(e.layer.properties.url);
             $("#photo").prop("src", mapPositionHandler.getMarkerUrl());
