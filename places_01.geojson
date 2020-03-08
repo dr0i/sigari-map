@@ -147,9 +147,9 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=trollsumpf%20zando&ordering=newest&searchphrase=any&limit=0",
+        "label": "http://gadel.org/component/search/?searchword=perrasz trollsumpf%20zando&ordering=newest&searchphrase=any&limit=0",
         "id": "Sicherer Ort 'Perrasz' im Trollsumpf",
-        "cat": "landscape",
+        "cat": "building",
         "depiction": "https://gadel.org//images/stories/illus/2005_02_19/trollsuempfe.jpg",
         "depictionMostlyKnownFor": "null"
       }
@@ -408,7 +408,25 @@
         "depiction": "https://gadel.org//images/stories/illus/2011_04_21/hoehle.jpg",
         "depictionMostlyKnownFor": "null"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         0.019719600677490238,
+         0.0066089629980380735
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=sicherer ort barris&ordering=newest&searchphrase=all&limit=0",
+        "id": "Sicherer Ort auf Barris",
+        "cat": "building",
+        "depiction": "https://gadel.org//images/stories/illus/2005_11_11/ghoul-portal.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
     }
+
 
 
 
