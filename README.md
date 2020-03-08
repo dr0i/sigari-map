@@ -9,7 +9,11 @@ The map is embedded and served using the excellent [mapwarper](https://mapwarper
 
 Code is based on [nwbib-quiz](https://github.com/dr0i/nwbib-quiz).
 
-# Looks of map
+# the idea
+A fantasy world map is put into a normal [OSM](https://openstreetmap.org) world map using [mapwarper](https://mapwarper.net/). Using the `leaflet` javascript library we than can utilize a `geojson` file to create markers on the map with fantasy geo coordinates. We can move in the map like in any normal world map. Using leaflet we can caclulate the distance between points (which is quite helpful and a better way than annoying the Dungeon Master with "how long to travel from A to B"?).
+The middle of the map resides on Earth with latitude 0 and longitude 0. Scroll long enough to the sides and you will eventually hit some real land (Africa to the east). The fantasy map is on such a scale that it is a long way to go, deliberately though.
+
+# Look of the map
 
 ![Sigari screenshot](/doc/screenshot_sigariMapElfenwald.jpg)
 
