@@ -23,8 +23,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.0018882751464843752,
-          0.008368492096714591
+          0.004806518554687501,
+          0.007553100564055681
         ]
       },
       "properties": {
@@ -63,6 +63,23 @@
       },
       "properties": {
         "label": "http://gadel.org/component/search/?searchword=jasfir&ordering=newest&searchphrase=all&limit=0",
+        "id": "Jasfir",
+        "cat": "landscape",
+        "depiction": "https://gadel.org/images/bagallery/original/jasfir.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08960723876953125,
+          -0.09922022628772657
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=jasfir&ordering=newest&searchphrase=all&limit=0",
         "id": "Vulkan auf Jasfir",
         "cat": "landscape",
         "depiction": "http://gadel.org//images/stories/illus/2006_03_03/vulkan-jasfir.jpg",
@@ -79,10 +96,10 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=usuls turm&ordering=newest&searchphrase=exact&limit=0",
-        "id": "Usulas Turm",
-        "cat": "building",
-        "depiction": "http://www.gadel.org//images/stories/illus/2004-11-16/leucht-turm.jpg",
+        "label": "http://gadel.org/component/search/?searchword=monoys&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Monoys",
+        "cat": "city",
+        "depiction": "https://gadel.org/images/bagallery/original/monoys.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -136,6 +153,264 @@
         "depiction": "https://gadel.org//images/stories/illus/2005_02_19/trollsuempfe.jpg",
         "depictionMostlyKnownFor": "null"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.02532005310058594,
+          -0.07879254718677699
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=usuls turm&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Usulas Turm",
+        "cat": "building",
+        "depiction": "http://www.gadel.org//images/stories/illus/2004-11-16/leucht-turm.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.042786598205566406,
+          -0.1040052796438615
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=kalatiain&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Kalatiain",
+        "cat": "city",
+        "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.01468777656555176,
+          -0.09488578273905904
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=aquir&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Aquir",
+        "cat": "city",
+        "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.026435852050781253,
+          -0.025019644895765504
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=breg&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Breg",
+        "cat": "city",
+        "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.006898641586303712,
+         -0.06310700094280988
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=aquos&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Aquos",
+        "cat": "city",
+        "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.014505386352539064,
+         0.028753279432775027
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=dmisun&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Dmisungebirge",
+        "cat": "landscape",
+        "depiction": "https://gadel.org//images/stories/illus/2011_04_21/hoehle.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -0.04051208496093751,
+         0.00617980955834353
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=elfenwald&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Elfenwald",
+        "cat": "landscape",
+        "depiction": "https://gadel.org/images/bagallery/original/sothjir-zuhause.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.04742145538330079,
+         -0.017595290861133272
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=zandosumpf&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Zandodorf in den Zandosümpfen",
+        "cat": "city",
+        "depiction": "https://gadel.org//images/stories/illus/2005_11_11/zando-dorf.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.03587722778320313,
+         -0.021286010252525456
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=sketabori&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Sketabori",
+        "cat": "landscape",
+        "depiction": "https://gadel.org//images/stories/illus/2010_03_12/zombieapartheid.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.0,
+         -0.03707885483375898
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=dunkelwald&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Dunkelwald",
+        "cat": "landscape",
+        "depiction": "https://gadel.org//images/stories/illus/2011_01_14/huegelwald.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.006362199783325196,
+         -0.06272076307752233
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=höhle bei aquos&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Höhle bei Aquos",
+        "cat": "building",
+        "depiction": "https://gadel.org/images/bagallery/original/aquos-tor-hoehle.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.06520986557006837,
+          0.05475997091136111
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=aluquam&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Aluquam",
+        "cat": "city",
+        "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.08578777313232423,
+          0.054073325713233984
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=cretun kretun&ordering=newest&searchphrase=any&limit=0",
+        "id": "Cretun",
+        "cat": "city",
+        "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -0.08926391601562501,
+         0.029954908913721236
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=mineraupen&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Mineraupengebirge",
+        "cat": "landscape",
+        "depiction": "https://gadel.org//images/stories/illus/2011_04_21/hoehle.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -0.04463195800781251,
+         0.0470352120022545
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=große wall&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Der große Wall",
+        "cat": "landscape",
+        "depiction": "https://gadel.org//images/stories/illus/2011_04_21/hoehle.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
     }
+
+
+
   ]
 }
