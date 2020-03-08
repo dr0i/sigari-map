@@ -1,7 +1,9 @@
 # sigari-map
+[See live](https://www.dr0i.de/lib/gadel/sigari-map/).
+
 Map of the fantasy world [Gadel](https://gadel.org/).
 
-The depiction shows`Sigari` and some smaller islands.
+The map shows`Sigari` and some smaller islands.
 
 The map is embedded and served using the excellent [mapwarper](https://mapwarper.net/).
 
