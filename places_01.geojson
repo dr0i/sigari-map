@@ -40,6 +40,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.004806518554687501,
+          0.007553100564055681
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=tusga&ordering=newest&searchphrase=all&limit=0",
+        "id": "Tusga - sicherer Ort Meradin",
+        "cat": "building",
+        "depiction": "https://gadel.org/images/stories/illus/2005_02_19/sicherer-ort-meradim.jpg",
+        "depictionMostlyKnownFor": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.04102706909179688,
           -0.06424425686280114
         ]
@@ -148,7 +165,7 @@
       },
       "properties": {
         "label": "http://gadel.org/component/search/?searchword=perrasz trollsumpf%20zando&ordering=newest&searchphrase=any&limit=0",
-        "id": "Sicherer Ort 'Perrasz' im Trollsumpf",
+        "id": "Perrasz - sicherer Ort Trollsumpf",
         "cat": "building",
         "depiction": "https://gadel.org//images/stories/illus/2005_02_19/trollsuempfe.jpg",
         "depictionMostlyKnownFor": "null"
@@ -252,7 +269,7 @@
         "label": "http://gadel.org/component/search/?searchword=dmisun&ordering=newest&searchphrase=exact&limit=0",
         "id": "Dmisungebirge",
         "cat": "landscape",
-        "depiction": "https://gadel.org//images/stories/illus/2011_04_21/hoehle.jpg",
+        "depiction": "https://gadel.org/images/stories/illus/2005_02_19/dmisungebirge-bergpanorama.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -419,16 +436,46 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=sicherer ort barris&ordering=newest&searchphrase=all&limit=0",
-        "id": "Sicherer Ort auf Barris",
+        "label": "http://gadel.org/component/search/?searchword=Wahataria&ordering=newest&searchphrase=all&limit=0",
+        "id": "Wahataria - sicherer Ort auf Barris",
         "cat": "building",
         "depiction": "https://gadel.org//images/stories/illus/2005_11_11/ghoul-portal.jpg",
         "depictionMostlyKnownFor": "null"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -0.04789352416992188,
+         -0.02276658951930324
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=ajasch&ordering=newest&searchphrase=all&limit=0",
+        "id": "Ajasch - sicherer Ort Zandosumpf",
+        "cat": "building",
+        "depiction": "https://gadel.org/images/bagallery/original/treffen-am-teich.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -0.027594566345214847,
+         -0.08407112919493083
+        ]
+      },
+      "properties": {
+        "label": "http://gadel.org/component/search/?searchword=isapa&ordering=newest&searchphrase=all&limit=0",
+        "id": "Isapa - sicherer Ort Maya",
+        "cat": "building",
+        "depiction": "https://gadel.org/images/stories/illus/2013_04_12/hain-eben-kl.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
     }
-
-
-
-
   ]
 }
