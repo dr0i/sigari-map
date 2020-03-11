@@ -11,10 +11,10 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=fundra&ordering=newest&searchphrase=all&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=fundra&ordering=newest&searchphrase=all&limit=0",
         "id": "Fundra",
         "cat": "city",
-        "depiction": "http://gadel.org//images/stories/illus/2018-05-25/fundra-drache.jpg",
+        "depiction": "https://gadel.org//images/stories/illus/2018-05-25/fundra-drache.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -28,11 +28,11 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=meradin&ordering=newest&searchphrase=all&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=meradin&ordering=newest&searchphrase=all&limit=0",
         "id": "Meradin",
         "cat": "city",
-        "depiction": "http://gadel.org//images/stories/illus/2017-05-20/Explo.jpg",
-        "depictionMostlyKnownFor": "http://gadel.org//images/stories/illus/2017-05-20/Explo.jpg"
+        "depiction": "https://gadel.org//images/stories/illus/2017-05-20/Explo.jpg",
+        "depictionMostlyKnownFor": "https://gadel.org//images/stories/illus/2017-05-20/Explo.jpg"
       }
     },
     {
@@ -45,7 +45,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=tusga&ordering=newest&searchphrase=all&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=tusga&ordering=newest&searchphrase=all&limit=0",
         "id": "Tusga - sicherer Ort Meradin",
         "cat": "building",
         "depiction": "https://gadel.org/images/stories/illus/2005_02_19/sicherer-ort-meradim.jpg",
@@ -65,7 +65,7 @@
         "label": "http://www.gadel.org/kalender/kalender/kalender-19-20-05-2017.html",
         "cat": "landscape",
         "id": "Nordinseln der Sigari-Abtrennung",
-        "depiction": "http://gadel.org//images/stories/illus/2017-05-20/inseln-meer.jpg",
+        "depiction": "https://gadel.org//images/stories/illus/2017-05-20/inseln-meer.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -79,7 +79,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=jasfir&ordering=newest&searchphrase=all&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=jasfir&ordering=newest&searchphrase=all&limit=0",
         "id": "Jasfir",
         "cat": "landscape",
         "depiction": "https://gadel.org/images/bagallery/original/jasfir.jpg",
@@ -96,10 +96,10 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=jasfir&ordering=newest&searchphrase=all&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=jasfir&ordering=newest&searchphrase=all&limit=0",
         "id": "Vulkan auf Jasfir",
         "cat": "landscape",
-        "depiction": "http://gadel.org//images/stories/illus/2006_03_03/vulkan-jasfir.jpg",
+        "depiction": "https://gadel.org//images/stories/illus/2006_03_03/vulkan-jasfir.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -113,7 +113,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=monoys&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=monoys&ordering=newest&searchphrase=exact&limit=0",
         "id": "Monoys",
         "cat": "city",
         "depiction": "https://gadel.org/images/bagallery/original/monoys.jpg",
@@ -130,7 +130,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=segon&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=segon&ordering=newest&searchphrase=exact&limit=0",
         "id": "Segon",
         "cat": "city",
         "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
@@ -147,7 +147,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=badrak&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=badrak&ordering=newest&searchphrase=exact&limit=0",
         "id": "Badrak",
         "cat": "landscape",
         "depiction": "https://gadel.org//images/stories/illus/2004-11-16/badrak-heilung-wald.jpg",
@@ -164,7 +164,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=perrasz trollsumpf%20zando&ordering=newest&searchphrase=any&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=perrasz trollsumpf%20zando&ordering=newest&searchphrase=any&limit=0",
         "id": "Perrasz - sicherer Ort Trollsumpf",
         "cat": "building",
         "depiction": "https://gadel.org//images/stories/illus/2005_02_19/trollsuempfe.jpg",
@@ -181,7 +181,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=usuls turm&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=usuls turm&ordering=newest&searchphrase=exact&limit=0",
         "id": "Usulas Turm",
         "cat": "building",
         "depiction": "http://www.gadel.org//images/stories/illus/2004-11-16/leucht-turm.jpg",
@@ -198,7 +198,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=kalatiain&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=kalatiain&ordering=newest&searchphrase=exact&limit=0",
         "id": "Kalatiain",
         "cat": "city",
         "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
@@ -215,7 +215,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=aquir&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=aquir&ordering=newest&searchphrase=exact&limit=0",
         "id": "Aquir",
         "cat": "city",
         "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
@@ -232,7 +232,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=breg&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=breg&ordering=newest&searchphrase=exact&limit=0",
         "id": "Breg",
         "cat": "city",
         "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
@@ -249,7 +249,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=aquos&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=aquos&ordering=newest&searchphrase=exact&limit=0",
         "id": "Aquos",
         "cat": "city",
         "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
@@ -266,7 +266,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=dmisun&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=dmisun&ordering=newest&searchphrase=exact&limit=0",
         "id": "Dmisungebirge",
         "cat": "landscape",
         "depiction": "https://gadel.org/images/stories/illus/2005_02_19/dmisungebirge-bergpanorama.jpg",
@@ -283,7 +283,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=elfenwald&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=elfenwald&ordering=newest&searchphrase=exact&limit=0",
         "id": "Elfenwald",
         "cat": "landscape",
         "depiction": "https://gadel.org/images/bagallery/original/sothjir-zuhause.jpg",
@@ -300,7 +300,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=zandosumpf&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=zandosumpf&ordering=newest&searchphrase=exact&limit=0",
         "id": "Zandodorf in den Zandosümpfen",
         "cat": "city",
         "depiction": "https://gadel.org//images/stories/illus/2005_11_11/zando-dorf.jpg",
@@ -317,7 +317,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=sketabori&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=sketabori&ordering=newest&searchphrase=exact&limit=0",
         "id": "Sketabori",
         "cat": "landscape",
         "depiction": "https://gadel.org//images/stories/illus/2010_03_12/zombieapartheid.jpg",
@@ -334,7 +334,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=dunkelwald&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=dunkelwald&ordering=newest&searchphrase=exact&limit=0",
         "id": "Dunkelwald",
         "cat": "landscape",
         "depiction": "https://gadel.org//images/stories/illus/2011_01_14/huegelwald.jpg",
@@ -351,7 +351,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=höhle bei aquos&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=höhle bei aquos&ordering=newest&searchphrase=exact&limit=0",
         "id": "Mondtor - Höhle bei Aquos",
         "cat": "building",
         "depiction": "https://gadel.org/images/bagallery/original/aquos-tor-hoehle.jpg",
@@ -368,7 +368,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=aluquam&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=aluquam&ordering=newest&searchphrase=exact&limit=0",
         "id": "Aluquam",
         "cat": "city",
         "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
@@ -385,7 +385,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=cretun kretun&ordering=newest&searchphrase=any&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=cretun kretun&ordering=newest&searchphrase=any&limit=0",
         "id": "Cretun",
         "cat": "city",
         "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
@@ -402,7 +402,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=mineraupen&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=mineraupen&ordering=newest&searchphrase=exact&limit=0",
         "id": "Mineraupengebirge",
         "cat": "landscape",
         "depiction": "https://gadel.org//images/stories/illus/2011_04_21/hoehle.jpg",
@@ -419,7 +419,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=große wall&ordering=newest&searchphrase=exact&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=große wall&ordering=newest&searchphrase=exact&limit=0",
         "id": "Der große Wall",
         "cat": "landscape",
         "depiction": "https://gadel.org/images/stories/illus/1995-04-03/schlucht-med.jpg",
@@ -436,7 +436,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=Wahataria&ordering=newest&searchphrase=all&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=Wahataria&ordering=newest&searchphrase=all&limit=0",
         "id": "Wahataria - sicherer Ort auf Barris",
         "cat": "building",
         "depiction": "https://gadel.org//images/stories/illus/2005_11_11/ghoul-portal.jpg",
@@ -453,7 +453,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=ajasch&ordering=newest&searchphrase=all&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=ajasch&ordering=newest&searchphrase=all&limit=0",
         "id": "Ajasch - sicherer Ort Zandosumpf",
         "cat": "building",
         "depiction": "https://gadel.org/images/bagallery/original/treffen-am-teich.jpg",
@@ -470,7 +470,7 @@
         ]
       },
       "properties": {
-        "label": "http://gadel.org/component/search/?searchword=isapa&ordering=newest&searchphrase=all&limit=0",
+        "label": "https://gadel.org/component/search/?searchword=isapa&ordering=newest&searchphrase=all&limit=0",
         "id": "Isapa - sicherer Ort Maya",
         "cat": "building",
         "depiction": "https://gadel.org/images/stories/illus/2013_04_12/hain-eben-kl.jpg",
