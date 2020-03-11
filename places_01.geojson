@@ -176,13 +176,13 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.02532005310058594,
-          -0.07879254718677699
+          -0.06789207458496095,
+          -0.0654673433899961
         ]
       },
       "properties": {
         "label": "https://gadel.org/component/search/?searchword=usuls turm&ordering=newest&searchphrase=exact&limit=0",
-        "id": "Usulas Turm",
+        "id": "Usula Turm",
         "cat": "building",
         "depiction": "http://www.gadel.org//images/stories/illus/2004-11-16/leucht-turm.jpg",
         "depictionMostlyKnownFor": "null"
