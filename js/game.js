@@ -31,7 +31,7 @@ define(["jquery", "icons", "fancybox", "leaflet"], function(
       htmlInner +=
         '</br><a id="photoText" style="font-size: 200%" href="' +
         imageLink +
-        '" >' +
+        '" target="_parent" >' +
         imageText +
         "</a>";
       htmlInner +=
