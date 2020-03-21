@@ -133,7 +133,7 @@
         "label": "https://gadel.org/component/search/?searchword=segon&ordering=newest&searchphrase=exact&limit=0",
         "id": "Segon",
         "cat": "city",
-        "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
+        "depiction": "https://gadel.org//images/stories/illus/2019-01-26/Segon-tempel.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -182,7 +182,7 @@
       },
       "properties": {
         "label": "https://gadel.org/component/search/?searchword=usuls turm&ordering=newest&searchphrase=exact&limit=0",
-        "id": "Usula Turm",
+        "id": "Usulas Turm",
         "cat": "building",
         "depiction": "http://www.gadel.org//images/stories/illus/2004-11-16/leucht-turm.jpg",
         "depictionMostlyKnownFor": "null"
