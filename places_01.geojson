@@ -476,6 +476,24 @@
         "depiction": "https://gadel.org/images/stories/illus/2013_04_12/hain-eben-kl.jpg",
         "depictionMostlyKnownFor": "null"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         -0.08884549140930176,
+         0.03879546822693876
+        ]
+      },
+      "properties": {
+        "label": "https://gadel.org/component/search/?searchword=pferde freigelassen&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Pferde, freigelassen",
+        "cat": "specialCharacter",
+        "depiction": "https://gadel.org//images/stories/illus/2009_06_13/gunther-von-und-zu-siederdissen.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
     }
+
   ]
 }

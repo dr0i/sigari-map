@@ -88,6 +88,7 @@ define(["jquery", "leaflet", "leaflet.ajax", "leaflet.ruler", "data"], function(
     setMarker("city");
     setMarker("landscape");
     setMarker("building");
+    setMarker("specialCharacter");
 
     $.ajaxSetup({
       scriptCharset: "utf-8",
