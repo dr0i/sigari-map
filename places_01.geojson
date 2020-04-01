@@ -320,7 +320,7 @@
         "label": "https://gadel.org/component/search/?searchword=sketabori&ordering=newest&searchphrase=exact&limit=0",
         "id": "Sketabori",
         "cat": "landscape",
-        "depiction": "https://gadel.org//images/stories/illus/2010_03_12/zombieapartheid.jpg",
+        "depiction": "https://gadel.org//images/stories/illus/2016-11-11/Sketabori.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -491,6 +491,23 @@
         "id": "Pferde, freigelassen",
         "cat": "specialCharacter",
         "depiction": "https://gadel.org//images/stories/illus/2009_06_13/gunther-von-und-zu-siederdissen.jpg",
+        "depictionMostlyKnownFor": "null"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+         0.01961231231689453,
+         0.005106925957593227
+        ]
+      },
+      "properties": {
+        "label": "https://gadel.org/component/search/?searchword=barris&ordering=newest&searchphrase=exact&limit=0",
+        "id": "Barris",
+        "cat": "landscape",
+        "depiction": "https://gadel.org//images/stories/illus/1997-01-25/Barris.jpg",
         "depictionMostlyKnownFor": "null"
       }
     }
