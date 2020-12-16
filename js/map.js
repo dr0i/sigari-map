@@ -25,14 +25,14 @@ define(["jquery", "leaflet", "leaflet.ajax", "leaflet.ruler", "data"], function(
       .map("map")
       .setView(data.mapConfig.center, data.mapConfig.zoom);
     leaflet
-      .tileLayer("http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      .tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         attribution: data.mapConfig.attribution,
         maxZoom: data.mapConfig.maxZoom,
         minZoom: data.mapConfig.minZoom
       })
       .addTo(map);
     leaflet
-      .tileLayer("http://www.mapwarper.net/maps/tile/45207/{z}/{x}/{y}.png", {
+      .tileLayer("https://www.mapwarper.net/maps/tile/45207/{z}/{x}/{y}.png", {
         attribution: data.mapConfig.mapWarperAttribution,
         maxZoom: data.mapConfig.maxZoom,
         minZoom: data.mapConfig.minZoom

@@ -1,20 +1,21 @@
 define({
   geojsonFile: "https://www.dr0i.de/lib/gadel/sigari-map/" + geojsonFile,
+  geojsonFile: "http://localhost/sigari-map/" + geojsonFile,
   mapConfig: {
     center: [0.0, -0.07],
     zoom: 12,
     maxZoom: 18,
     minZoom: 10,
     attribution:
-      'Map data &#64; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors</a>',
+      'Map data &#64; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors</a>',
     mapWarperAttribution:
-      'Map data &#64; <a href="http://mapwarper.net/">MapWarper</a> contributors</a>'
+      'Map data &#64; <a href="https://mapwarper.net/">MapWarper</a> contributors</a>'
   },
   gameData: function() {
     var index = 0;
     var data = undefined;
     var imageUrl =
-      "http://gadel.org//images/stories/illus/2018-05-25/fundra-drache.jpg";
+      "https://gadel.org//images/stories/illus/2018-05-25/fundra-drache.jpg";
     var imageGeoPosition = [0.0, 0.0];
     return {
       setData: function(newData) {
