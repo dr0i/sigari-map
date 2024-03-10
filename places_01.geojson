@@ -3,6 +3,23 @@
   "features": [
     {
       "type": "Feature",
+      "geometry": { 
+        "type": "Point",
+        "coordinates": [
+          0.0008368492126464845,
+          0.008046627018222266
+        ]
+      },
+      "properties": { 
+        "label": "https://gadel.org/component/search/?searchword=Presbor&ordering=newest&searchphrase=all&limit=0",
+        "id": "Presbor",
+        "cat": "landscape",
+        "depiction": "https://gadel.org/images/stories/illus/2023-11-17/ueberflutung5.webp",
+        "depictionMostlyKnownFor": null
+      } 
+    },
+    {
+      "type": "Feature",
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -12,7 +29,7 @@
       },
       "properties": {
         "label": "https://gadel.org/component/search/?searchword=fundra&ordering=newest&searchphrase=all&limit=0",
-        "id": "Fundra",
+        "id": "Fundradebug",
         "cat": "city",
         "depiction": "https://gadel.org//images/stories/illus/2018-05-25/fundra-drache.jpg",
         "depictionMostlyKnownFor": "null"
@@ -82,7 +99,7 @@
         "label": "https://gadel.org/component/search/?searchword=jasfir&ordering=newest&searchphrase=all&limit=0",
         "id": "Jasfir",
         "cat": "landscape",
-        "depiction": "https://gadel.org/images/bagallery/original/jasfir.jpg",
+        "depiction": "https://gadel.org/images/stories/illus/2006_03_03/drachen-jasfir-med.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -116,7 +133,7 @@
         "label": "https://gadel.org/component/search/?searchword=monoys&ordering=newest&searchphrase=exact&limit=0",
         "id": "Monoys",
         "cat": "city",
-        "depiction": "https://gadel.org/images/bagallery/original/monoys.jpg",
+        "depiction": "https://gadel.org/images/stories/illus/karten/monoys.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -286,7 +303,7 @@
         "label": "https://gadel.org/component/search/?searchword=elfenwald&ordering=newest&searchphrase=exact&limit=0",
         "id": "Elfenwald",
         "cat": "landscape",
-        "depiction": "https://gadel.org/images/bagallery/original/sothjir-zuhause.jpg",
+        "depiction": "https://gadel.org/images/stories/illus/2014-08-30/sothjir-zuhause-med.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -354,7 +371,7 @@
         "label": "https://gadel.org/component/search/?searchword=höhle bei aquos&ordering=newest&searchphrase=exact&limit=0",
         "id": "Mondtor - Höhle bei Aquos",
         "cat": "building",
-        "depiction": "https://gadel.org/images/bagallery/original/aquos-tor-hoehle.jpg",
+        "depiction": "https://gadel.org/images/stories/illus/2015-09-18/aquos-tor-hoehle-med.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -456,7 +473,7 @@
         "label": "https://gadel.org/component/search/?searchword=ajasch&ordering=newest&searchphrase=all&limit=0",
         "id": "Ajasch - sicherer Ort Zandosumpf",
         "cat": "building",
-        "depiction": "https://gadel.org/images/bagallery/original/treffen-am-teich.jpg",
+        "depiction": "https://gadel.org/images/stories/illus/2013_04_12/teich-spuren.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },

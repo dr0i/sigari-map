@@ -1,6 +1,5 @@
 define({
   geojsonFile: "https://www.dr0i.de/lib/gadel/sigari-map/" + geojsonFile,
-  geojsonFile: "http://localhost/sigari-map/" + geojsonFile,
   mapConfig: {
     center: [0.0, -0.07],
     zoom: 12,
