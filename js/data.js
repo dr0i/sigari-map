@@ -6,7 +6,7 @@ define({
     maxZoom: 18,
     minZoom: 10,
     attribution:
-      'Map data &#64; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors</a>',
+      '<a href="https://gadel.org/">Fantasy World Gadel</a> | Map data &#64; <a href="https://openstreetmap.org">OpenStreetMap</a> contributors</a> | Project <a href="https://github.com/dr0i/sigari-map/">sigari-map at GitHub</a>',
     mapWarperAttribution:
       'Map data &#64; <a href="https://mapwarper.net/">MapWarper</a> contributors</a>'
   },
