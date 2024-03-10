@@ -21,7 +21,7 @@ The middle of the map resides on Earth with latitude 0 and longitude 0. Scroll l
 * Zoom as always
 * Note the ruler icon beneath the zooming icons: activate it, click on the map once and again at another point: the distance between these points is calculated in km and horse travelling time.
 * Hover over a marker and see the top left image change to reflect the graphic associated with the marker. Also, the image has a title and a link to the diaries with the according search phrase for the thing depicted at the image.
-* doubleclick to get the lat/lon. Note when using this data in `places_01.geojson` the first value (lat) is the second entry and the second (lon) the first one.
+* doubleclick to get the lat/lon. Note when using this data in `places_01.geojson` the first value (lat) is the second entry and the second (lon) the first one. Well, sometimes itÄs vice versa. Try it out.
 
 # License
 Copyright 2020 Pascal Christoph (dr0i)
