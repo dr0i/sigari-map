@@ -3,20 +3,88 @@
   "features": [
     {
       "type": "Feature",
-      "geometry": { 
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.012788772583007812,
+          -0.012102126985200853
+        ]
+      },
+      "properties": {
+        "label": "https://gadel.org/component/search/?searchword=barris%20hafen%20&ordering=newest&searchphrase=all&limit=0",
+        "id": "Kalias",
+        "cat": "landscape",
+        "depiction": "https://gadel.org/images/stories/illus/2023-04-28/Insel-Kalais-med.jpg",
+        "depictionMostlyKnownFor": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.01772403717041016,
+          0.004173517223493693
+        ]
+      },
+      "properties": {
+        "label": "https://gadel.org/component/search/?searchword=barris%20hafen%20&ordering=newest&searchphrase=all&limit=0",
+        "id": "Hafen von Barris",
+        "cat": "city",
+        "depiction": "https://gadel.org/images/stories/illus/2023-04-28/hafen-barris-med.jpg",
+        "depictionMostlyKnownFor": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.0006866455078125,
+          -0.008711814846803615
+        ]
+      },
+      "properties": {
+        "label": "https://gadel.org/component/search/?searchword=kloster%20ruine%20Sag%20Hain&ordering=newest&searchphrase=all&limit=0",
+        "id": "Zugang zu Sag",
+        "cat": "building",
+        "depiction": "https://gadel.org/images/stories/illus/2023-06-04/kloster-leichen-med.jpg",
+        "depictionMostlyKnownFor": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.00034332275390625,
+          -0.008840560877999535
+        ]
+      },
+      "properties": {
+        "label": "https://gadel.org/component/search/?searchword=Sag%20Hain&ordering=newest&searchphrase=all&limit=0",
+        "id": "Sag im Hain",
+        "cat": "specialCharacter",
+        "depiction": "https://gadel.org/images/stories/illus/2023-11-17/sag-hain.webp",
+        "depictionMostlyKnownFor": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "Point",
         "coordinates": [
           0.0008368492126464845,
           0.008046627018222266
         ]
       },
-      "properties": { 
+      "properties": {
         "label": "https://gadel.org/component/search/?searchword=Presbor&ordering=newest&searchphrase=all&limit=0",
         "id": "Presbor",
-        "cat": "landscape",
-        "depiction": "https://gadel.org/images/stories/illus/2023-11-17/ueberflutung5.webp",
+        "cat": "specialCharacter",
+        "depiction": "https://gadel.org/images/stories/illus/2022-09-02/prespor-flussgeist-med.jpg",
         "depictionMostlyKnownFor": null
-      } 
+      }
     },
     {
       "type": "Feature",
@@ -29,7 +97,7 @@
       },
       "properties": {
         "label": "https://gadel.org/component/search/?searchword=fundra&ordering=newest&searchphrase=all&limit=0",
-        "id": "Fundradebug",
+        "id": "Fundra",
         "cat": "city",
         "depiction": "https://gadel.org//images/stories/illus/2018-05-25/fundra-drache.jpg",
         "depictionMostlyKnownFor": "null"
@@ -262,7 +330,7 @@
         "type": "Point",
         "coordinates": [
           0.006898641586303712,
-         -0.06310700094280988
+          -0.06310700094280988
         ]
       },
       "properties": {
@@ -279,7 +347,7 @@
         "type": "Point",
         "coordinates": [
           -0.014505386352539064,
-         0.028753279432775027
+          0.028753279432775027
         ]
       },
       "properties": {
@@ -295,8 +363,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-         -0.04051208496093751,
-         0.00617980955834353
+          -0.04051208496093751,
+          0.00617980955834353
         ]
       },
       "properties": {
@@ -313,7 +381,7 @@
         "type": "Point",
         "coordinates": [
           -0.04742145538330079,
-         -0.017595290861133272
+          -0.017595290861133272
         ]
       },
       "properties": {
@@ -330,7 +398,7 @@
         "type": "Point",
         "coordinates": [
           -0.03587722778320313,
-         -0.021286010252525456
+          -0.021286010252525456
         ]
       },
       "properties": {
@@ -346,8 +414,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.0,
-         -0.03707885483375898
+          0,
+          -0.03707885483375898
         ]
       },
       "properties": {
@@ -364,7 +432,7 @@
         "type": "Point",
         "coordinates": [
           0.006362199783325196,
-         -0.06272076307752233
+          -0.06272076307752233
         ]
       },
       "properties": {
@@ -414,8 +482,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-         -0.08926391601562501,
-         0.029954908913721236
+          -0.08926391601562501,
+          0.029954908913721236
         ]
       },
       "properties": {
@@ -431,8 +499,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-         -0.04463195800781251,
-         0.0470352120022545
+          -0.04463195800781251,
+          0.0470352120022545
         ]
       },
       "properties": {
@@ -448,8 +516,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-         0.019719600677490238,
-         0.0066089629980380735
+          0.019719600677490238,
+          0.0066089629980380735
         ]
       },
       "properties": {
@@ -465,8 +533,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-         -0.04789352416992188,
-         -0.02276658951930324
+          -0.04789352416992188,
+          -0.02276658951930324
         ]
       },
       "properties": {
@@ -482,8 +550,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-         -0.027594566345214847,
-         -0.08407112919493083
+          -0.027594566345214847,
+          -0.08407112919493083
         ]
       },
       "properties": {
@@ -499,8 +567,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-         -0.08884549140930176,
-         0.03879546822693876
+          -0.08884549140930176,
+          0.03879546822693876
         ]
       },
       "properties": {
@@ -516,8 +584,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-         0.01961231231689453,
-         0.005106925957593227
+          0.01961231231689453,
+          0.005106925957593227
         ]
       },
       "properties": {
@@ -528,6 +596,5 @@
         "depictionMostlyKnownFor": "null"
       }
     }
-
   ]
 }
