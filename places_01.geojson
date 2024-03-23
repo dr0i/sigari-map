@@ -125,16 +125,16 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.004806518554687501,
-          0.007553100564055681
+          0.0048,
+          0.0074
         ]
       },
       "properties": {
-        "label": "https://gadel.org/component/search/?searchword=meradin&ordering=newest&searchphrase=all&limit=0",
-        "id": "Meradin",
-        "cat": "city",
-        "depiction": "https://gadel.org//images/stories/illus/2017-05-20/Explo.jpg",
-        "depictionMostlyKnownFor": "https://gadel.org//images/stories/illus/2017-05-20/Explo.jpg"
+        "label": "https://gadel.org/component/search/?searchword=tusga&ordering=newest&searchphrase=all&limit=0",
+        "id": "Tusga - sicherer Ort Meradin",
+        "cat": "building",
+        "depiction": "https://gadel.org/images/stories/illus/2005_02_19/sicherer-ort-meradim.jpg",
+        "depictionMostlyKnownFor": ""
       }
     },
     {
@@ -147,11 +147,11 @@
         ]
       },
       "properties": {
-        "label": "https://gadel.org/component/search/?searchword=tusga&ordering=newest&searchphrase=all&limit=0",
-        "id": "Tusga - sicherer Ort Meradin",
-        "cat": "building",
-        "depiction": "https://gadel.org/images/stories/illus/2005_02_19/sicherer-ort-meradim.jpg",
-        "depictionMostlyKnownFor": ""
+        "label": "https://gadel.org/component/search/?searchword=meradin&ordering=newest&searchphrase=all&limit=0",
+        "id": "Meradin",
+        "cat": "city",
+        "depiction": "https://gadel.org//images/stories/illus/2017-05-20/Explo.jpg",
+        "depictionMostlyKnownFor": "https://gadel.org//images/stories/illus/2017-05-20/Explo.jpg"
       }
     },
     {
