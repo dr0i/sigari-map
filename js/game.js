@@ -16,7 +16,7 @@ define(["jquery", "icons", "fancybox", "leaflet"], function(
         '<div style="width: 400px;text-align: center; position: fixed; left: 70px; background: lightgrey">';
       htmlInner +=
         '<input type="checkbox" id="catCity" name="cat" value="city" checked>';
-      htmlInner += '<label for="catCity">Städte</label>';
+      htmlInner += '<label for="catCity" style="background-color: red;">Städte</label>';
       htmlInner +=
         '<input type="checkbox" id="catLandscape" name="cat" value="landscape" checked>';
       htmlInner += '<label for="catLandscape">Landschaften</label>';

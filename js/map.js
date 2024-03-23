@@ -5,6 +5,16 @@ define(["jquery", "leaflet", "leaflet.ajax", "leaflet.ruler", "data"], function(
   leafletRuler,
   data
 ) {
+
+  var MarkerIcon = L.Icon.extend({
+    options: {
+      iconSize:   [25, 41],
+      iconAnchor: [12, 41],
+    popupAnchor:  [1, -34],
+    tooltipAnchor:[16, -28]
+    }
+  });
+
   var rulerOptions = {
     position: "topleft",
     lengthUnit: {
@@ -21,6 +31,7 @@ define(["jquery", "leaflet", "leaflet.ajax", "leaflet.ruler", "data"], function(
     }
   };
   return function(mapPositionHandler, callback, gameData) {
+
     var map = leaflet
       .map("map")
       .setView(data.mapConfig.center, data.mapConfig.zoom);
@@ -47,7 +58,12 @@ define(["jquery", "leaflet", "leaflet.ajax", "leaflet.ruler", "data"], function(
         L.geoJson(data, {
           pointToLayer: function(feature, latlng) {
             if (feature.properties.cat === cat) {
-              marker = L.marker(latlng);
+              if (feature.properties.cat == "city") {
+                var redIcon = new MarkerIcon({iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png'});
+                marker = L.marker(latlng, {icon: redIcon});
+              } else {
+                marker = L.marker(latlng);
+              }
               marker.properties = {};
               marker.properties.url = feature.properties.depiction;
               marker.properties.id = feature.properties.id;
