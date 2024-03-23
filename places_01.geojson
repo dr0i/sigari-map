@@ -6,6 +6,23 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          0.0028109550476074223,
+          -0.003111362455742852
+        ]
+      },
+      "properties": {
+        "label": "https://gadel.org/component/search/?searchword=Teana&ordering=newest&searchphrase=all&limit=0",
+        "id": "Teana",
+        "cat": "city",
+        "depiction": "https://freesvg.org/img/nicubunu_RPG_map_symbols_City.png",
+        "depictionMostlyKnownFor": null
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           0.012788772583007812,
           -0.012102126985200853
         ]
