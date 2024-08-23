@@ -184,7 +184,7 @@
         "label": "https://gadel.org/?s=jasfir",
         "id": "Jasfir",
         "cat": "landscape",
-        "depiction": "https://gadel.org/images/stories/illus/2006_03_03/drachen-jasfir-med.jpg",
+        "depiction": "https://www.gadel.org/wp-content/uploads/2006/03/drachen-jasfir.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -201,7 +201,7 @@
         "label": "https://gadel.org/?s=jasfir",
         "id": "Jasfir",
         "cat": "landscape",
-        "depiction": "https://www.gadel.org/wp-content/uploads/2018/11/jasfir-768x842.jpg",
+        "depiction": "http://www.gadel.org/wp-content/uploads/2006/03/vulkan-jasfir-768x576.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -235,7 +235,7 @@
         "label": "https://gadel.org/?s=segon",
         "id": "Segon",
         "cat": "city",
-        "depiction": "https://gadel.org//images/stories/illus/2019-01-26/Segon-tempel.jpg",
+        "depiction": "https://www.gadel.org/wp-content/uploads/2019/01/Segon-tempel.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -252,7 +252,7 @@
         "label": "https://gadel.org/?s=badrak",
         "id": "Badrak",
         "cat": "landscape",
-        "depiction": "https://gadel.org//images/stories/illus/2004-11-16/badrak-heilung-wald.jpg",
+        "depiction": "https://www.gadel.org/wp-content/uploads/2024/08/badrak-heilung-wald.webp",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -286,7 +286,7 @@
         "label": "https://gadel.org/?s=usuls turm",
         "id": "Usulas Turm",
         "cat": "building",
-        "depiction": "http://www.gadel.org//images/stories/illus/2004-11-16/leucht-turm.jpg",
+        "depiction": "https://www.gadel.org/wp-content/uploads/2024/08/leuchtturm.webp",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -422,7 +422,7 @@
         "label": "https://gadel.org/?s=sketabori",
         "id": "Sketabori",
         "cat": "landscape",
-        "depiction": "https://gadel.org//images/stories/illus/2016-11-11/Sketabori.jpg",
+        "depiction": "https://www.gadel.org/wp-content/uploads/1998/09/Sketabori-768x576.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -541,7 +541,7 @@
         "label": "https://gadel.org/?s=Wahataria",
         "id": "Wahataria - sicherer Ort auf Barris",
         "cat": "building",
-        "depiction": "https://gadel.org//images/stories/illus/2005_11_11/ghoul-portal.jpg",
+        "depiction": "https://www.gadel.org/wp-content/uploads/2005/12/ghoul-portal.jpg",
         "depictionMostlyKnownFor": "null"
       }
     },
@@ -609,7 +609,7 @@
         "label": "https://gadel.org/?s=barris",
         "id": "Barris",
         "cat": "landscape",
-        "depiction": "https://gadel.org//images/stories/illus/1997-01-25/Barris.jpg",
+        "depiction": "https://www.gadel.org/wp-content/uploads/1997/01/Barris.jpg",
         "depictionMostlyKnownFor": "null"
       }
     }
